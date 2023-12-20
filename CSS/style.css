@@ -1,3 +1,7 @@
+:root {
+  --bs-blue: #0d6efd;
+}
+
 .fa-bell {
   color: rgb(247, 164, 9);
 }
@@ -6,7 +10,7 @@
 
 .side-bar {
   width: 90px;
-  height: calc(100vh - 80px);
+  height: calc(101vh - 80px);
   background-color: rgb(16, 16, 158);
   background-image: url(../img/sidebar-bg.png);
   display: flex;
@@ -56,6 +60,26 @@
 
 .options {
   margin: auto;
+}
+
+/*CONTAINER*/
+
+.bg-color {
+  background-color: var(--bs-blue);
+}
+
+.avatar {
+  width: 20px;
+  aspect-ratio: 1;
+}
+
+.h4-bool {
+  color: white;
+}
+
+.bool-title {
+  color: white;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 992px) {
