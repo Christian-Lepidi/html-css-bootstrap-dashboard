@@ -10,7 +10,7 @@
 
 .side-bar {
   width: 90px;
-  height: calc(101vh - 80px);
+  height: calc(100vh - 80px);
   background-color: rgb(16, 16, 158);
   background-image: url(../img/sidebar-bg.png);
   display: flex;
@@ -65,7 +65,11 @@
 /*CONTAINER*/
 
 .bg-color {
-  background-color: var(--bs-blue);
+  background-color: rgb(38, 38, 226);
+}
+
+.fa-angle-double-right {
+  color: white;
 }
 
 .avatar {
@@ -73,7 +77,7 @@
   aspect-ratio: 1;
 }
 
-.h4-bool {
+.studente {
   color: white;
 }
 
