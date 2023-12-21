@@ -61,6 +61,11 @@
 .options {
   margin: auto;
 }
+/*MAIN*/
+.main-contents {
+  height: calc(100vh - 80px);
+  overflow: auto;
+}
 
 /*CONTAINER*/
 
