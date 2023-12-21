@@ -91,6 +91,10 @@
   font-size: 20px;
 }
 
+.todo {
+  background-color: lightgray;
+}
+
 @media screen and (min-width: 992px) {
   .side-bar {
     width: 180px;
