@@ -63,7 +63,27 @@
               ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle"
+                  type="icon"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-bell"></i>
+                </a>
+                <div class="bell-contents">
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -161,7 +181,7 @@
                     <td>20%</td>
                     <td><span class="badge text-bg-success">Done</span></td>
                     <td>
-                      <button><i class="fas fa-pen"></i></button
+                      <button class="me-1"><i class="fas fa-pen"></i></button
                       ><button><i class="fas fa-trash-alt"></i></button>
                     </td>
                   </tr>
@@ -174,7 +194,7 @@
                     <td>20%</td>
                     <td><span class="badge text-bg-success">Done</span></td>
                     <td>
-                      <button><i class="fas fa-pen"></i></button
+                      <button class="me-1"><i class="fas fa-pen"></i></button
                       ><button><i class="fas fa-trash-alt"></i></button>
                     </td>
                   </tr>
@@ -187,7 +207,7 @@
                     <td>20%</td>
                     <td><span class="badge text-bg-warning">Process</span></td>
                     <td>
-                      <button><i class="fas fa-pen"></i></button
+                      <button class="me-1"><i class="fas fa-pen"></i></button
                       ><button><i class="fas fa-trash-alt"></i></button>
                     </td>
                   </tr>
@@ -200,7 +220,7 @@
                     <td>20%</td>
                     <td><span class="badge text-bg-success">Done</span></td>
                     <td>
-                      <button><i class="fas fa-pen"></i></button
+                      <button class="me-1"><i class="fas fa-pen"></i></button
                       ><button><i class="fas fa-trash-alt"></i></button>
                     </td>
                   </tr>
@@ -213,7 +233,7 @@
                     <td>20%</td>
                     <td><span class="badge text-bg-danger">Failed</span></td>
                     <td>
-                      <button><i class="fas fa-pen"></i></button
+                      <button class="me-1"><i class="fas fa-pen"></i></button
                       ><button><i class="fas fa-trash-alt"></i></button>
                     </td>
                   </tr>
@@ -226,7 +246,7 @@
                     <td>20%</td>
                     <td><span class="badge text-bg-success">Done</span></td>
                     <td>
-                      <button><i class="fas fa-pen"></i></button
+                      <button class="me-1"><i class="fas fa-pen"></i></button
                       ><button><i class="fas fa-trash-alt"></i></button>
                     </td>
                   </tr>
@@ -239,7 +259,7 @@
                     <td>20%</td>
                     <td><span class="badge text-bg-danger">Failed</span></td>
                     <td>
-                      <button><i class="fas fa-pen"></i></button
+                      <button class="me-1"><i class="fas fa-pen"></i></button
                       ><button><i class="fas fa-trash-alt"></i></button>
                     </td>
                   </tr>
@@ -381,13 +401,24 @@
                 </li>
               </ul>
             </div>
-            <div class="card">
-              <img src="./img/stats.jpeg" alt="" />
-              <h5>Utenti attivi</h5>
-              <strong
-                >Lista degli utenti attivi in piattaforma nell'ultimo
-                mese</strong
-              >
+            <div class="card p-2">
+              <div class="card">
+                <img src="./img/stats.jpeg" alt="" />
+                <h5>Utenti attivi</h5>
+                <strong
+                  >Lista degli utenti attivi in piattaforma nell'ultimo
+                  mese</strong
+                >
+
+                <ul class="list-group">
+                  <li class="list-group-item">Gennaio 1200</li>
+                  <li class="list-group-item">Febbraio 800</li>
+                  <li class="list-group-item">Marzo 1500</li>
+                  <li class="list-group-item">
+                    <a href="#">Visualizza report approfondito</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
