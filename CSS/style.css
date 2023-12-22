@@ -2,6 +2,10 @@
   --bs-blue: #0d6efd;
 }
 
+body {
+  overflow: hidden;
+}
+
 .fa-bell {
   color: rgb(247, 164, 9);
   margin-top: 12px;
